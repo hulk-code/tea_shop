@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/64d75193dd.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+<style>
+   .font-roboto{
+      font-family: 'Roboto Condensed', sans-serif;
+   }
+</style>
+
+</head>
+<body>
+   <header class=" bg-orange-300">
+   <!-- this is navbar -->
+   <nav>
+      <div class="navbar">
+         <div class="flex-1">
+           <a class="btn btn-ghost normal-case text-4xl text-stone-500 font-roboto transition ease-in-out delay-150hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300">Tea_Shop</a>
+         </div>
+         <div class="flex-none gap-2">
+           <div class="form-control">
+             <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+           </div>
+           <div class="dropdown dropdown-end">
+             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+               <div class="w-10 rounded-full">
+                 <img src="images/banner.png" />
+               </div>
+             </label>
+             <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+               <li>
+                 <a class="justify-between">
+                   Tea
+                   <span class="badge">New</span>
+                 </a>
+               </li>
+               <li><a>Coffe</a></li>
+               <li><a>Best-deal</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+   </nav>
+   <!-- banner Section -->
+   <section>
+      <div class="flex flex-col lg:flex-row items-center justify-evenly">
+         <div class="font-roboto p-28 space-y-4">
+            <h1 class="text-5xl font-extrabold">It's good 
+               tea time at The Tea House</h1>
+               <p class="text-base font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+               <button class="btn btn-secondary">Explore More<i class="fa-solid fa-up-right-from-square fa-shake fa-xl"></i></button>
+         </div>
+         <div >
+            <img src="images/banner.png" alt="" class="relative">
+            
+               <div class="absolute flex items-center justify-around bg-slate-200 drop-shadow-2xl w-52  rounded -mt-24 ml-20 lg:ml-28  h-20">
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-600" />
+                  </div>
+                 <div>
+                    <p class="font-rpboto font-bold text-lg">5.00</p>
+                     <p class="font-roboto font-medium ">Trust Pilot Ratings</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+   <main>
+      <!-- Our Featured Products -->
+      <section>
+
+      </section>
+   </main>
+   
+      
+                  
+               
+            
+</body>
+</html>
